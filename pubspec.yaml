@@ -1,0 +1,42 @@
+name: app_api
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+  
+
+dependencies:
+  http: ^1.0.0
+  get_storage: ^2.1.1
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:     
+    - assets/images/b.jpg
+  uses-material-design: true
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-BlackItalic.ttf
+          style: italic
+        - asset: assets/fonts/Roboto/Roboto-Black.ttf
+          weight: 900
+    - family: TiltPrism
+      fonts:
+        - asset: assets/fonts/Tilt_Prism/TiltPrism-Regular-VariableFont_XROT,YROT.ttf
+          style: italic
+        - asset: assets/fonts/Tilt_Prism/static/TiltPrism-Regular.ttf
+          weight: 700
+
+     
+
+
